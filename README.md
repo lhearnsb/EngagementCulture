@@ -37,8 +37,13 @@ Herzberg (2011) is an expert on motivation within organizations. He suggests tha
   * Status
   * Security
 
-The original study measured relationships among culture, motivation, and academic performance. Evidence of high intrinsic motivation and low compliance motivation within these relationships would indicate the presence of engagement culture (Goleman, 2011; Schlecty, 2011; and Senge, 2006) 
+**The original study** measured relationships among culture, motivation, and academic performance. Evidence of high intrinsic motivation and low coercion within these relationships would indicate the presence of engagement culture (Goleman, 2011; Schlecty, 2011; and Senge, 2006). 
 
+**The target population** was urban, high-poverty public school campuses. The representative sample comprised 172 high-poverty public school campuses in Dallas ISD. Dallas ISD was selected because of its large size, the availability of valid and reliable engagement culture data for each campus, and the demographic makeup of its urban, high-poverty campuses, which has similar demographics to other urban, high-poverty campuses in the United States.
+
+**Data.** There were no direct participants. Aggregate campus-level data were from school year 2019 and came from the Texas Education Agency & Dallas ISD. Those data (and additional as gathered) will be posted in this repository.
+
+***
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
 
