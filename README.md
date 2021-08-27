@@ -1,6 +1,7 @@
 # EngagementCulture
 
 This repository exists to further research on the topic of Engagement Culture, which is the shared underlying assumption that intrinsic motivation creates energy that drives growth (Wang & Degol, 2014) and that dissatisfaction depresses that energy (Herzberg, 2011). **The best way to motivate is by increasing satisfaction and decreasing dissatisfaction—not by coercion into compliance.**
+***
 
 The engagement culture concstruct started as a study for Laura Hearnsberger's (2021) doctoral dissertation for Pepperdine University, in an attempt to clarify the notion that school culture could help overcome obstacles to academic performance faced by high-poverty schools. The problem that the study sought to solve was determining what is meant by culture and how schools should shape it to manifest improved academic performance. Even though organizational culture is widely accepted as essential for achieving sustainable success (Kotter & Heskett, 1992; Jung, et al., 2009; Deal & Peterson, 2016; U. S. Department of Education, 2019), what is meant by culture varies (Jung et al., 2009), and identifying culture qualities to improve academic performance is elusive (M.-T. Wang & Degol, 2016).
 
@@ -41,8 +42,24 @@ Herzberg (2011) is an expert on motivation within organizations. He suggests tha
 
 **The target population** was urban, high-poverty public school campuses. The representative sample comprised 172 high-poverty public school campuses in Dallas ISD. Dallas ISD was selected because of its large size, the availability of valid and reliable engagement culture data for each campus, and the demographic makeup of its urban, high-poverty campuses, which has similar demographics to other urban, high-poverty campuses in the United States.
 
-**Data.** There were no direct participants. Aggregate campus-level data were from school year 2019 and came from the Texas Education Agency & Dallas ISD. Those data (and additional as gathered) will be posted in this repository.
+**Data.** There were no direct participants. Aggregate campus-level data were from school year 2019 and came from the Texas Education Agency & Dallas ISD. Those data (and additional as gathered) will be posted in this repository. 
 
+**Analysis.** Hierarchical multiple regression analysis was conducted for each outcome variable to determine to what extent the presence of predictor variables explains extra variation in each outcome variable.
+
+**Predictor Variables**
+* Released Data from Dallas ISD
+  * Select staff engagement and support survey items percent positive
+  * Overall composite rates of positive results from parent surveys
+  * Overall composite rates of positive results from student surveys
+  * Extracurricular participation rates
+* Released Data from the Texas Education Agency 
+  * Discretionary discipline rates
+  * Population discipline rates
+
+**Outcome Variables**
+* Released Data from The Texas Education Agency
+  * Domain II: Academic Growth whole points awarded
+  * Domain II: Relative Performance STAAR-only scale scores
 ***
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
