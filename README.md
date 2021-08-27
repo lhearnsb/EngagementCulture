@@ -4,7 +4,7 @@ This repository exists to further research on the topic of Engagement Culture, w
 
 The concstruct started as a study for Laura Hearnsberger's doctoral dissertation for Pepperdine University, in response to the notion that school culture could help overcome obstacles to academic performance faced by high-poverty schools. The problem that the study sought to solve was determining what is meant by culture and how schools should shape it to manifest improved academic performance. Even though organizational culture is widely accepted as essential for achieving sustainable success (Kotter & Heskett, 1992; Jung, et al., 2009; Deal & Peterson, 2016; U. S. Department of Education, 2019), what is meant by culture varies (Jung et al., 2009), and identifying culture qualities to improve academic performance is elusive (M.-T. Wang & Degol, 2016).
 
-
+The purpose of the non-experimental, cross-sectional study was to identify specific characteristics of a culture of engagement that correlate with academic achievement in high-poverty schools.
 
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
