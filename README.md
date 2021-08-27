@@ -6,7 +6,8 @@ The concstruct started as a study for Laura Hearnsberger's doctoral dissertation
 
 The purpose of the non-experimental, cross-sectional study was to identify specific characteristics of culture that correlate with academic achievement in high-poverty schools. "Culture" has a lot of different definitions, each one correct, depending on the context. Schools tend to operationalize "culture" as how well-behaved and quiet its students are (Marquez, 2019). Check out the Texas Education Agency's Effective School Framework resources called "Mission, Vision and Values Artifacts" and "Student Rollout: Schoolwide Culture Routine" (https://texasesf.org/esf-in-action/#3.1). 
 
-not the “shared webbing of beliefs, informal folkways, and traditions that infuse work with meaning, passion, and purpose” (Deal & Peterson, 2016, p. 2)
+We define and study culture as shared underlying assumptions. Our definition combines ideas from Deal & Peterson (2016) and Schein & Schein (2017). Deal & Peterson say that culture is the “shared webbing of beliefs, informal folkways, and traditions that infuse work with meaning, passion, and purpose” (p. 2). Schein & Schein say it comprises three levels: artifacts, espoused beliefs and values, and basic underlying assumptions (p. 18). The level of culture that is relevant for engagement culture is basic underlying assumptions, because they drive behavior, whereas espoused beliefs and values are sometimes aspirational and do not necessarily align with the underlying assumptions that inform beliefs and drive behavior (Schein & Schein, 2017).
+
 
 
 Research around student engagement, hidden culture, drivers of beliefs and actions, and motivation provides the backdrop for this study. 
