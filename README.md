@@ -21,6 +21,22 @@ These ideas from organizational experts Schlechty (2011) and Senge (2006) demons
 
 Herzberg (2011) is an expert on motivation within organizations. He suggests that motivation has two distinct aspects: Intrinsic motivators that **increase satisfaction** and Maintenance factors that **minimize *dis*satisfaction**.
 
+* **Intrinsic motivators that increase satisfaction**
+  * Achievement
+  * Recognition for achievement
+  * The work itself
+  * Responsibility
+  * Growth or advancement
+
+* **Maintenance factors that minimize dissatisfaction**
+  * Company policy and administration
+  * Supervision
+  * Interpersonal relationships
+  * Working conditions
+  * Salary
+  * Status
+  * Security
+
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
 
