@@ -60,6 +60,25 @@ Herzberg (2011) is an expert on motivation within organizations. He suggests tha
 * Released Data from The Texas Education Agency
   * Domain II: Academic Growth whole points awarded
   * Domain II: Relative Performance STAAR-only scale scores
+
+**Significant Findings and Important Trends**
+**Research Question One:** How much do culture construct scores indicating intrinsic motivation and minimal dissatisfaction, discipline data indicating non-coercive motivation styles, and extracurricular participation explain a campus’ academic growth?
+**Null Hypothesis:** Engagement culture is not related to academic growth in high-poverty schools.
+There was a statistically significant relationship between factors of engagement culture and academic growth in high-poverty schools. Therefore, we can reject the null hypothesis.
+
+**Research Question Two:** How much do culture construct scores indicating intrinsic motivation and minimal dissatisfaction, discipline data indicating non-coercive motivation styles, and extracurricular participation rates explain a campus’ relative academic performance?
+**Null Hypothesis:** Engagement culture is not related to relative academic performance in high-poverty schools.
+There was a statistically significant relationship between factors of engagement culture and relative academic performance in high-poverty schools. Therefore, we can reject the null hypothesis.
+
+**Conclusions**
+**Conclusion 1:** Engagement Culture Explains Academic Growth on High-Poverty Campuses. Student satisfaction (r(145) = .51, p < .001) and the expectation by teachers that students would attend college (r(145) = .52, p < .001) were each more strongly related to academic growth than poverty rate, which did not have a statistically significant relationship with growth on high-poverty campuses, r = -.03, p = .71.
+
+**Conclusion 2:** Engagement Culture Explains Relative Academic Performance on High-Poverty Campuses. Student satisfaction (r(145) = .44, p < .001) and the expectation by teachers that students would attend college (r(145) = .55, p < .001) were each more strongly related to relative academic performance than poverty rate, r= -.23, p < .005.
+
+The entire study is published on ProQuest Dissertatoins & Theses Global and is included as a document in this repository.
+
+Hearnsberger, L. M. (2021). Does culture eat poverty for breakfast? exploring the role of engagement for achievement in U.S. schools (Order No. 28649275). Available from ProQuest Dissertations & Theses Global. (2563500433). Retrieved from https://lib.pepperdine.edu/login?url=https://www-proquest-com.lib.pepperdine.edu/dissertations-theses/does-culture-eat-poverty-breakfast-exploring-role/docview/2563500433/se-2?accountid=13159
+
 ***
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
