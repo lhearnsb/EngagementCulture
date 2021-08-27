@@ -15,9 +15,9 @@ We study basic underlying assumptions, because they drive behavior. The ladder o
 Cultural norms inform the shared meanings, assumptions, and beliefs that drive action. If the cultural assumption is that coercion is the best motivator, then coercive behavior will occur. The cultural assumption that coercion is the best way to motivate leads to systemic compliance and disengagement, not a culture of engagement.
 
 From Schlechty (2011) and Senge (2006):
-* Cultures that believe in positive or carrot coercion to motivate will produce genuine compliance and likely meet expectations.
-* Cultures that believe in negative or whip coercion to motivate will produce disengagement and defiance.
-* Cultures that believe in intrinsic motivation to motivate will produce engagement and robust, lasting learning.
+  * Cultures that believe in positive or carrot coercion to motivate will produce genuine compliance and likely meet expectations.
+  * Cultures that believe in negative or whip coercion to motivate will produce disengagement and defiance.
+  * Cultures that believe in intrinsic motivation to motivate will produce engagement and robust, lasting learning.
 
 
 
