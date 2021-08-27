@@ -14,11 +14,12 @@ We study basic underlying assumptions, because they drive behavior. The ladder o
 
 Cultural norms inform the shared meanings, assumptions, and beliefs that drive action. If the cultural assumption is that coercion is the best motivator, then coercive behavior will occur. The cultural assumption that coercion is the best way to motivate leads to systemic compliance and disengagement, not a culture of engagement.
 
-From Schlechty (2011) and Senge (2006):
+These ideas from organizational experts Schlechty (2011) and Senge (2006) demonstrate the importance of focusing on beliefs about motivation:
   * Cultures that believe in positive or carrot coercion to motivate will produce genuine compliance and likely meet expectations.
   * Cultures that believe in negative or whip coercion to motivate will produce disengagement and defiance.
   * Cultures that believe in intrinsic motivation to motivate will produce engagement and robust, lasting learning.
 
+Herzberg (2011) is an expert on motivation within organizations. He suggests that motivation has two distinct aspects: Intrinsic motivators that **increase satisfaction** and Maintenance factors that **minimize *dis*satisfaction**.
 
 
 It is still in its early stages, but the vision is for this to be a place where researchers can find data, literature, topics, problem statements, and methods to support the study and proliferation of engagement culture.
