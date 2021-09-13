@@ -2,6 +2,7 @@ The table called UsSchoolData2019_Compiled went through several iterations befor
 
 This was used to add NCES descriptions (UsSchoolData2019_CompiledOLD2)...
 
+```tsql
 SELECT 
 [NCESSCH]
       ,[SCHID]
@@ -89,11 +90,13 @@ SELECT
       ,[NotSpecifiedCount]
 	  --into UsSchoolData2019_Compiled
   FROM [Engage].[dbo].[UsSchoolData2019_CompiledOLD] c
+  ```
   
  ------------------
  
   This was used to add population estimates (UsSchoolData2019_CompiledOLD3)
   
+```tsql
 with crosswalk as (
 select distinct CBSACode, CBSATitle from CBSACrosswalk5 cr
 )
@@ -188,11 +191,14 @@ on p.trimnmsbsa = concat(cr.cbsatitle, ' Metro Area')
 
 --order by CBSATYPE
 
+```
+
 ---------------------
 
 This was used to add test scores (UsSchoolData2019_Compiled final)
 
-/****** Script for SelectTopNRows command from SSMS  ******/
+```tsql
+
 SELECT  
 	   c.[NCESSCH]
       ,c.[SCHID]
@@ -280,3 +286,5 @@ SELECT
 
   left join NationalTestScores2019 t (See NationwidePassRatesSQL)
   on t.ncessch = c.NCESSCH
+  
+  ```
