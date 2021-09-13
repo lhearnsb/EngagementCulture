@@ -1,7 +1,9 @@
 This SQL combines the base file with other data sets to create a file with compiled data for all campuses in the US.
 
+The resulting file, called UsSchoolData2019_Compiled, is in the repository.
+
 sources:
-UsSchoolData2019_Base aka base file from SQL query
+UsSchoolData2019_Base aka base file from SQL query called FederalSchoolBaseBuildSQL in repository
 NCES_Membership2019 aka Membership from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
 NCES_Directory2019 aka Directory from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
 CENSUS_SchoolDistrictPovertyEstimates2019 aka SAIPE School District Estimates for 2019 Estimates from every school in the nation TXT from https://www.census.gov/data/datasets/2019/demo/saipe/2019-school-districts.html
