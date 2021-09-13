@@ -7,6 +7,9 @@ It uses the following datasets:
 
 NCES_Membership2019, aka Membership from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
 NCES_Lunch2019, aka Lunch Program Eligibility from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
+NCES_Characteristics2019, aka School Characteristics from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
+EDGE_Geocode2019, aka 2018-2019 Public School File from https://nces.ed.gov/programs/edge/Geographic/SchoolLocations
+
 
 
 
