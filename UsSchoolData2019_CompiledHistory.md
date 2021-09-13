@@ -284,7 +284,7 @@ SELECT
 	  --into UsSchoolData2019_Compiled
   FROM [Engage].[dbo].[UsSchoolData2019_CompiledOLD3] c
 
-  left join NationalTestScores2019 t (See NationwidePassRatesSQL)
+  left join NationalTestScores2019 t --(See NationwidePassRatesSQL)
   on t.ncessch = c.NCESSCH
   
   ```
