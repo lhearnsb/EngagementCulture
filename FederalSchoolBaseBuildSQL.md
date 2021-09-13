@@ -11,8 +11,7 @@ NCES_Characteristics2019, aka School Characteristics from https://nces.ed.gov/cc
 EDGE_Geocode2019, aka 2018-2019 Public School File from https://nces.ed.gov/programs/edge/Geographic/SchoolLocations
 
 
-
-'''
+```
 --This is the base build. The question is... why do some schools have over a 100% free/reduced lunch rate? Should we just use the direct cert if a campus has both?
 
 
@@ -122,4 +121,4 @@ order by 1
 --------"The NSLP reimburses Alaska schools for meals at a higher rate than any other state because of higher food costs on 
 ---------the Last Frontier — in 2018-19, schools in the state received $5.38 for each free meal served, as compared to $3.31 
 ---------in the 48 contiguous states. Eligibility rules for students, however, match the federal standard."
-'''
+```
