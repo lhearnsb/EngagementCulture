@@ -10,6 +10,7 @@ NCES_Directory2019 aka Directory from https://nces.ed.gov/ccd/files.asp#Fiscal:2
 CENSUS_SchoolDistrictPovertyEstimates2019 aka SAIPE School District Estimates for 2019 Estimates from every school in the nation TXT from https://www.census.gov/data/datasets/2019/demo/saipe/2019-school-districts.html
 
 
+```tsql
 
 with RaceEthnicityCounts as (
 select distinct ncessch, RACE_ETHNICITY, n = sum(cast(STUDENT_COUNT as int))
@@ -163,6 +164,6 @@ on ns.NCESSCH = b.NCESSCH and ns.RACE_ETHNICITY = 'Not Specified'
   --order by 1
   --b.extremeLunchProgDataFlag desc,-- b.possibleLunchProgDataIssue desc, b.freeRedRate desc
 
-
+```
 
 
