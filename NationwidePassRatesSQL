@@ -1,7 +1,7 @@
 --SQL to isolate math and reading pass rates from the United States Department of Education EdFacts Data Files (SCHOOL LEVEL CSV, LONG FILE)
 --found at https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html
 
-
+--Used to build table called NationalTestScores2019 that was later used to add test results to UsSchoolData2019_CompiledOLD.
 
 
 with TestScores2019 as (
