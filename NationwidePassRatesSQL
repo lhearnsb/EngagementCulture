@@ -1,6 +1,92 @@
-SQL to isolate math and reading pass rates from the United States Department of Education EdFacts Data Files (SCHOOL LEVEL CSV, LONG FILE)
-found at https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html
+--SQL to isolate math and reading pass rates from the United States Department of Education EdFacts Data Files (SCHOOL LEVEL CSV, LONG FILE)
+--found at https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html
 
+
+
+
+with TestScores2019 as (
+SELECT [SCHOOL_YEAR]
+      ,[STNAM]
+      ,[FIPST]
+      ,[LEAID]
+      ,[ST_LEAID]
+      ,[LEANM]
+      ,[NCESSCH]
+      ,[ST_SCHID]
+      ,[SCHNAM]
+      ,[SUBJECT]
+      ,[GRADE]
+      ,[CATEGORY]
+      ,[DATE_CUR],
+	  NUMVALID
+      ,[PCTPROF], 
+	  NumValidFloat = cast([NUMVALID] as float),
+	  PctProfFloat = cast((case
+				 when pctprof = 'LE1' then '1'
+				 when pctprof = 'ge99' then '99'
+				 else PCTPROF end) as float)
+  FROM [Engage].[dbo].[EdFactsElarLong2019]
+
+   where grade = '00' and CATEGORY = 'all'
+  and PCTPROF not in ('ps') and PCTPROF not like '%-%' and PCTPROF not like '%le5%' and PCTPROF not like '%ge95%' 
+  and cast([NUMVALID] as float) >= 200
+
+union (
+SELECT [SCHOOL_YEAR]
+      ,[STNAM]
+      ,[FIPST]
+      ,[LEAID]
+      ,[ST_LEAID]
+      ,[LEANM]
+      ,[NCESSCH]
+      ,[ST_SCHID]
+      ,[SCHNAM]
+      ,[SUBJECT]
+      ,[GRADE]
+      ,[CATEGORY]
+      ,[DATE_CUR],
+	  NUMVALID
+      ,[PCTPROF], 
+	  NumValidFloat = cast([NUMVALID] as float),
+	  PctProfFloat = cast((case
+				 when pctprof = 'LE1' then '1'
+				 when pctprof = 'ge99' then '99'
+				 else PCTPROF end) as float)
+  FROM [Engage].[dbo].[EdFactsMathLong2019]
+
+   where grade = '00' and CATEGORY = 'all'
+  and PCTPROF not in ('ps') and PCTPROF not like '%-%' and PCTPROF not like '%le5%' and PCTPROF not like '%ge95%' 
+  and cast([NUMVALID] as float) >= 200
+))
+
+select distinct b.NCESSCH, b.SCHOOL_YEAR, --r.NCESSCH, m.NCESSCH, 
+b.ST_SCHID, b.SCHNAM,  b.GRADE, b.CATEGORY, 
+
+readingNumValidFloat = r.NumValidFloat, readingPctProfFloat = r.PctProfFloat,
+mathNumValidFloat = m.NumValidFloat, mathPctProfFloat = m.PctProfFloat
+
+--into NationalTestScores2019
+from TestScores2019 b
+
+left join TestScores2019 r
+on r.NCESSCH = b.NCESSCH and r.SUBJECT = 'rla'
+
+left join TestScores2019 m
+on m.NCESSCH = b.NCESSCH and m.SUBJECT = 'MTH'
+  
+--where b.ST_SCHID like '%tx-057905%' and b.SCHNAM like '%h s%'
+
+--order by 2, 3
+
+
+
+
+
+
+
+
+/%
+ORIGINAL:
 
 SELECT [SCHOOL_YEAR]
       ,[STNAM]
@@ -45,3 +131,4 @@ SELECT [SCHOOL_YEAR]
   ----FCS = Foster Care
   ----MIL = Military Connected
 
+*/
