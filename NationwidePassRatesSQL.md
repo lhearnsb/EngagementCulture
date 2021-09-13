@@ -87,7 +87,7 @@ on m.NCESSCH = b.NCESSCH and m.SUBJECT = 'MTH'
 
 
 
-/%
+/*
 ORIGINAL:
 
 SELECT [SCHOOL_YEAR]
