@@ -1,7 +1,12 @@
-This SQL query was used to join data about all campuses in the US in 2019 and create a base file.
+This SQL query was used to join data about all campuses in the US in 2019 and create a base file of all campuses.
+
+Note that there are some discrepancies in the reporting from different states, either because of differences in rules or user error. More detail at bottom.
+This query attempts to create an "apples to apples" set of data on campuses throughout the US.
+
 It uses the following datasets:
 
 NCES_Membership2019, aka Membership from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
+NCES_Lunch2019, aka Lunch Program Eligibility from https://nces.ed.gov/ccd/files.asp#Fiscal:2,LevelId:7,SchoolYearId:33,Page:1
 
 
 
