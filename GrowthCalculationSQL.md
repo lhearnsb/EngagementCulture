@@ -1,5 +1,6 @@
 For accountability in Texas, half points are awarded for partial growth. These are tests where the student did not grow a full year based on the scale score but did maintain the pass level (e.g. they were at "meets" in 2018 on math and at "meets" in 2019 on math). To remove these half-points from the data and show only full year's growth, this query was used with the camprate file.
 
+For my dissertation, only the Dallas ISD schools were used. The file called GrowthCalculation2019 includes all Texas campuses, not just Dallas.
 
 ```tsql
 --This is the methodology to calculate growth rate baesd on scale score, omitting the half-points for staying at the same growth level.
