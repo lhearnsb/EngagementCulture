@@ -1,6 +1,7 @@
 This SQL combines the base file with other data sets to create a file with compiled data for all campuses in the US.
 
-The resulting file, called UsSchoolData2019_Compiled, is in the repository.
+The resulting file, called UsSchoolData2019_CompiledOLD, is in the repository. 
+NOTE THE OLD. Another file, called UsSchoolData2019_Compiled, is there, too. It also has the reading and math test scores for each campus.
 
 sources:
 UsSchoolData2019_Base aka base file from SQL query called FederalSchoolBaseBuildSQL in repository
